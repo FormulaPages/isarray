@@ -8,14 +8,14 @@
             exports: {}
         };
         factory(mod.exports, mod);
-        global.index = mod.exports;
+        global.ISARRAY = mod.exports;
     }
 })(this, function (exports, module) {
     'use strict';
 
     module.exports = isArray;
 
-    function isArray(value) {
+    function isArray(arr) {
         return Object.prototype.toString.call(arr) === '[object Array]';
     }
 });

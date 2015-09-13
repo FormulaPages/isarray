@@ -1,4 +1,4 @@
 
-export default function isArray(value) {
+export default function isArray(arr) {
     return Object.prototype.toString.call( arr ) === '[object Array]';
 }
