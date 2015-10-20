@@ -1,10 +1,10 @@
 {
   "name": "formula-isarray",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Checks if value is an array.",
-  "main": "index.js",
+  "main": "ISARRAY.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel-node test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/FormulaPages/isarray/issues"
   },
-  "homepage": "https://github.com/FormulaPages/isarray#readme"
+  "homepage": "https://github.com/FormulaPages/isarray#readme",
+  "devDependencies": {
+    "tape": "^4.2.1"
+  }
 }
